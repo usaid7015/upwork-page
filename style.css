@@ -16,15 +16,22 @@ ul {
     margin: 0%;
     padding: 0;
     width: 25%;
-    height: 100px;
+    padding-bottom: 1em;
     overflow: scroll;
     background-color: white;
     height: 100%;
     position: fixed;
     
   }
-  
-  
+  .show{
+    color: white;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+  } 
+  .show .showe{
+    border: 2px solid white;
+}
+
   ul div{
     display: flex;
     flex-direction: column;
